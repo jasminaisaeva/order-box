@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+ .menuBlock{
+    width: 50%;
+    background-color:rgb(200, 240, 181);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 25px;
+   
+}
+
+.orders-block{
+    width: 50%;
+    background-color:rgb(236, 178, 250);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.foot-img{
+width: 100px;
+height: 100px;
+}
+.foot-card{
+    display: flex;
+    width: 300px;
+    /* height: 200px; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 178, 250); 
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom:20px ;
+    padding: 10px 20px;
+}
+.foot-card:hover {
+    box-shadow: 0 10px 30px rgb(0 0 0 / 90%);
+    transition: .5s ease-in-out;
+}
+#menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 60px;
+}
+li {
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    background-color:rgb(200, 240, 181);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+li:hover {
+    box-shadow: 0 10px 30px rgb(0 0 0 / 90%);
+    transition: .5s ease-in-out;
+}
+.productPrice {
+    color: rgb(56, 0, 102);
+    list-style: none;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+}
+.titleProduct {
+    list-style: none;
+    width: 120px;
+    color: rgb(56, 12, 92);
+    font-family: 'Jomhuria', cursive;
+    font-size: 40px;
+} 
+button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(170, 0, 255);
+    border-radius: 5px;
+    border: none;
+} 
+
+.span {
+     width: 30px;
+    font-size: 18px;
+    font-size: 25px;
+     color: rgb(56, 12, 92); 
+     text-align: center; 
+}  
+#items-count {
+    font-size: 40px; 
+    color: rgb(200, 240, 181);
+}
+h3{
+    /* color: steelblue; */
+    font-size: 30px;
+}
+
+
